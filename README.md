@@ -4,6 +4,8 @@
 
 The Spotify UI Clone is a responsive web application that replicates the user interface of the popular music streaming service, Spotify. This project is designed to showcase HTML, CSS, and JavaScript skills, focusing on creating an engaging and visually appealing user experience. The app features a sidebar for navigation, a main content area displaying recently played tracks, recommended playlists, and a selection of podcasts.
 
+![image](https://github.com/user-attachments/assets/1c1c7829-7f78-4139-a87a-a5b5e61c5688)
+
 ## Features
 
 - **Responsive Design**: The layout adapts to different screen sizes, providing an optimal viewing experience on desktop and mobile devices.
@@ -38,8 +40,6 @@ To set up the project locally, follow these steps:
 - Click on the navigation options (Home, Search, Your Library) to explore different sections.
 - View the recently played tracks and recommendations in the main content area.
 - The design mimics the original Spotify layout, providing a familiar experience.
-
-![image](https://github.com/user-attachments/assets/1c1c7829-7f78-4139-a87a-a5b5e61c5688)
 
 ## Conclusion
 The Spotify UI Clone project highlights the effectiveness of web development technologies in creating an easy-to-use interface. This project serves as a valuable practice platform for improving front-end skills and offers insights into how responsive designs can enhance user experience. By exploring this clone, users can better understand the details of web design and the importance of usability in digital applications.
