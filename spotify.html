@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="spotify.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel = "icon" href="./assets/logo.png"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#" >Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <image src = "assets/library_icon.png" alt = "library-icon"></image>
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <div class="box-p1">
+                            <p>Create your first playlist</p>
+                        </div>
+                        <div class="box-p2">
+                            <p>It's easy, we'll help you</p>
+                        </div>
+                        <button class = "badge">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1">
+                            Let's find some podcasts to follow
+                        </p>
+                        <p class="box-p2">
+                            We'll keep you updated on new episodes
+                        </p>
+                        <button class = "badge">Browse podcasts</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="stickynav">
+                <div class="left">
+                <img src = "assets/backward_icon.png">
+                <img src = "assets/forward_icon.png" class = "hide" >
+                </div>  
+                <div class="right">  
+                <button class="badge hide">Explore Premium</button>
+                <button class="badge black-badge"> <i class = "fa-regular fa-circle-down" style="margin-right:4px"></i> Install App</button>
+                <i class = "fa-regular fa-user user-icon"></i>
+                </div>  
+            </div>
+            
+            <div class="content">
+                <div class = "titles">
+                    <h2>Recently played</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src = "assets/podcast (3).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Indie Hackers</p>
+                        <p class = "card-info">Courtland Allen and Channing Allen</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/featured (1).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Afternoon Mix</p>
+                        <p class = "card-info">Afternoon music picked just for you</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/card1img.jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Top 50 - Global</p>
+                        <p class = "card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/songs (5).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Whole Lotta Red</p>
+                        <p class = "card-info">Playboi Carti</p>
+                    </div>
+                  </div>
+
+                  <div class = "titles">
+                    <h2>Made For You</h2>
+                    <p>Show all</p>
+                  </div>
+                  <div class="card-container">
+                      <div class="card">
+                          <img src = "assets/dailymix_ (5).jpeg">
+                          <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                            </div>
+                          <p class = "card-title">Daily Mix 1</p>
+                          <p class = "card-info">Metro Boomin, Future, 21 Savage and more</p>
+                      </div>
+                      <div class="card">
+                          <img src = "assets/dailymix_ (2).jpeg">
+                          <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                            </div>
+                          <p class = "card-title">Daily Mix 3</p>
+                          <p class = "card-info">Lana Del Rey, Post Malone and more</p>
+                      </div>
+                      <div class="card">
+                        <img src = "assets/dailymix_ (1).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Daily Mix 5</p>
+                        <p class = "card-info">Ed Sheeran, Adele, Joji and more</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/dailymix_ (3).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Release Radar</p>
+                        <p class = "card-info">Catch all the latest music from artist you follow...</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/dailymix_ (4).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Discover Weekly</p>
+                        <p class = "card-info">Your weekly mixtape of fresh music. Enjoy new...</p>
+                    </div>
+                  </div>
+
+                  <div class = "titles">
+                    <h2>Trending now near you</h2>
+                    <p>Show all</p>
+                  </div>
+                  <div class="card-container textnext">
+                    <div class="card">
+                        <img src = "assets/trending (1).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Big Dawgs</p>
+                        <p class = "card-info">Hanumanking, Kalmi</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/trending (4).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Blue</p>
+                        <p class = "card-info">Billie Ellish</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/trending (2).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Houdini</p>
+                        <p class = "card-info">Dua Lipa</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/trending (3).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">One Love</p>
+                        <p class = "card-info">Blue</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/trending (5).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Please Please Please</p>
+                        <p class = "card-info">Sabrina Carpenter</p>
+                    </div>
+                  </div>
+
+                  <p>Inspired by your recent acitivity</p>
+                  <div class = "titles">
+                    <h2>Recommended for today</h2>
+                    <p>Show all</p>
+                  </div>
+                  <div class="card-container">
+                    <div class="card">
+                        <img src = "assets/songs (1).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Surround Sound</p>
+                        <p class = "card-info">JID</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/songs (2).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">NOT ALL HEROES WEAR CAPES...</p>
+                        <p class = "card-info">Metro Boomin, 21 Savage</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/songs (3).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">DIE FOR MY BITCH</p>
+                        <p class = "card-info">Baby Keem</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/songs (4).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Finally Rich</p>
+                        <p class = "card-info">Cheif Keef</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/songs (5).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Whole Lotta Red</p>
+                        <p class = "card-info">Playboi Carti</p>
+                    </div>
+                  </div>
+
+                  <div class = "titles">
+                    <h2>Your shows</h2>
+                    <p>Show all</p>
+                  </div>
+                  <div class="card-container">
+                    <div class="card">
+                        <img src = "assets/podcast (1).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">The Game w/ Alex Hormozi</p>
+                        <p class = "card-info">Alex Hormozi</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/podcast (2).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">The Diary of A CEO with Steven Bartlett</p>
+                        <p class = "card-info">Flight Studio</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/podcast (3).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Indie Hackers</p>
+                        <p class = "card-info">Courtland Allen and Channing Allen</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/podcast (4).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">My First Million</p>
+                        <p class = "card-info">Hubspot Media</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/podcast (5).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Huberman Lab</p>
+                        <p class = "card-info">Scicomm Media</p>
+                    </div>
+                  </div>
+
+                  <div class = "titles">
+                    <h2>Featured Charts</h2>
+                    <p>Show all</p>
+                  </div>
+                  <div class="card-container">
+                    <div class="card">
+                        <img src = "assets/card5img.jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Top Songs Global</p>
+                        <p class = "card-info">By Spotify</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/card6img.jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Top Songs India</p>
+                        <p class = "card-info">By Spotify</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/card1img.jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Top 50 - Global</p>
+                        <p class = "card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/featured (1).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Afternoon Mix</p>
+                        <p class = "card-info">Afternoon music picked just for you</p>
+                    </div>
+                    <div class="card">
+                        <img src = "assets/featured (2).jpeg">
+                        <div class="play-btn">
+                            <img src = "assets/icon.svg">
+                        </div>
+                        <p class = "card-title">Soft Late Night Mix</p>
+                        <p class = "card-info">Soft Late Night music picked just for you</p>
+                    </div>
+                  </div>
+
+                  <div class="footer">
+                    <div class="line">
+
+                    </div>
+                  </div>
+                  
+            </div>
+        </div>
+
+        <div class="music-player">
+            <div class="album">
+                <img src = "assets/album_picture.jpeg" width="50px" height="50px" class = "album-cover">
+                <div class="text">
+                    <p class = "songname">Daylight</p>
+                    <p class = "artist">David Kushner</p>
+                </div>
+                <div class="icons">
+                    <img src = "assets/album_icon1.png" height="23px" width="23px" class = "like">
+                    <img src = "assets/album_icon2.png" height="37px" width="30px" class = "view">
+                </div>
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src = "assets/player_icon1.png" class = "player-control-icon">
+                    <img src = "assets/player_icon2.png" class = "player-control-icon">
+                    <img src = "assets/player_icon3.png" class = "player-control-icon icon-play">
+                    <img src = "assets/player_icon4.png" class = "player-control-icon">
+                    <img src = "assets/player_icon5.png" class = "player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class = "cuu-time"> 00:00 </span>
+                    <input type = "range" min = "0" max = "100" class="progress-bar" value = "0">
+                    <span class = "total-time"> 03:33 </span>
+                </div>
+            </div> 
+
+            <div class="controls">
+                <div class="icons">
+                    <img src = "assets/controls_icon1.png" height = "40px" width="30px" style="margin-right:1px">
+                    <img src = "assets/controld_icon2.png" height = "40px" width="30px">
+                    <img src = "assets/controls_icon3.png" height = "20px" width="20px" style="margin-right:5.5px;opacity:0.8">
+                    <img src = "assets/controls_icon4.png" height = "17px" width="17px" style="opacity:0.8">
+                    <img src = "assets/controls_icon5.png" height = "40px" width="30px">
+                    <input type="range" min="0" max = "100" class="progress-bar" value="100">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
